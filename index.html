@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balanced Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Tajawal:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="navbar">
+    <div class="logo">Balanced Coffee</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Est. 2010</span>
+      <h1>Balanced Coffee</h1>
+      <p>A quiet moment in the heart of the city — authentic coffee, warm atmosphere</p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+    <div class="hero-scroll">↓</div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="section" id="menu">
+    <div class="section-header">
+      <span class="section-tag">What We Offer</span>
+      <h2>Drinks & Food Menu</h2>
+    </div>
+
+    <div class="menu-tabs">
+      <button class="tab active" data-tab="drinks">Drinks</button>
+      <button class="tab" data-tab="food">Food</button>
+      <button class="tab" data-tab="sweets">Sweets</button>
+    </div>
+
+    <div class="menu-grid active" id="tab-drinks">
+      <div class="menu-card">
+        <div class="menu-icon"><i class="fa-solid fa-mug-hot"></i></div>
+        <h3>Espresso</h3>
+        <p>Freshly roasted Ethiopian beans</p>
+        <span class="price">$3.50</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon"><i class="fa-solid fa-glass-water"></i></div>
+        <h3>Latte</h3>
+        <p>Espresso with silky steamed milk</p>
+        <span class="price">$5.00</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon"><i class="fa-solid fa-mug-hot"></i></div>
+        <h3>Moroccan Tea</h3>
+        <p>Fresh mint with premium green tea</p>
+        <span class="price">$3.00</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon"><i class="fa-solid fa-glass-water"></i></div>
+        <h3>Iced Mocha</h3>
+        <p>Chocolate and espresso over ice</p>
+        <span class="price">$6.50</span>
+      </div>
+    </div>
+
+    <div class="menu-grid" id="tab-food">
+      <div class="menu-card">
+        <div class="menu-icon"><img src="croissant.png" alt="" width="60"></div>
+        <h3>Croissant</h3>
+        <p>Filled with fresh cheese and butter</p>
+        <span class="price">$4.50</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon"><img src="salad.png" alt="" width="60"></div>
+        <h3>Balanced Salad</h3>
+        <p>Seasonal vegetables with lemon dressing</p>
+        <span class="price">$8.00</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon"><i class="fa-solid fa-burger"></i></div>
+        <h3>Chicken Sandwich</h3>
+        <p>Grilled chicken with veggies & house sauce</p>
+        <span class="price">$10.00</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon"><i class="fa-solid fa-egg"></i></div>
+        <h3>Balanced Breakfast</h3>
+        <p>Eggs, cheese, toast & honey</p>
+        <span class="price">$13.00</span>
+      </div>
+    </div>
+
+    <div class="menu-grid" id="tab-sweets">
+      <div class="menu-card">
+        <div class="menu-icon">🎂</div>
+        <h3>Chocolate Cake</h3>
+        <p>Rich, moist with dark ganache</p>
+        <span class="price">$6.00</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon">🍮</div>
+        <h3>Crème Brûlée</h3>
+        <p>French custard with caramelized sugar</p>
+        <span class="price">$7.50</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon">🍪</div>
+        <h3>Walnut Cookies</h3>
+        <p>Freshly baked from the oven daily</p>
+        <span class="price">$3.50</span>
+      </div>
+      <div class="menu-card">
+        <div class="menu-icon">🧁</div>
+        <h3>Vanilla Cupcake</h3>
+        <p>Topped with soft buttercream frosting</p>
+        <span class="price">$5.00</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section" id="about">
+    <div class="about-image">
+        <img src="c4737e013a673e196416210867f9b1f8.jpg" alt="" width="450" >
+      <div class="about-badge">14+ Years of Passion</div>
+    </div>
+    <div class="about-text">
+      <span class="section-tag">Our Story</span>
+      <h2>More Than Just a Café</h2>
+      <p>Balanced Coffee started as a small dream in 2010 — a place that brings people together over a cup of coffee and good conversation. Today, we're proud to be a destination everyone keeps coming back to.</p>
+      <p>Every bean is carefully selected, every dish is prepared with love, and every visit creates a memory worth keeping.</p>
+      <div class="about-stats">
+        <div class="stat">
+          <strong>500+</strong>
+          <span>Cups per day</span>
+        </div>
+        <div class="stat">
+          <strong>14</strong>
+          <span>Years of experience</span>
+        </div>
+        <div class="stat">
+          <strong>98%</strong>
+          <span>Happy customers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section" id="gallery">
+    <div class="section-header">
+      <span class="section-tag">Inside Balanced Coffee</span>
+      <h2>Gallery</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall">
+        <div class="gallery-placeholder"><span>☕</span><p>Morning Cup</p></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder"><span>🌿</span><p>Green Corner</p></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder"><span>🎂</span><p>Daily Sweets</p></div>
+      </div>
+      <div class="gallery-item wide">
+        <div class="gallery-placeholder"><span>🏡</span><p>Cozy Atmosphere</p></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder"><span>🍃</span><p>Latte Art</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="contact-info">
+      <span class="section-tag">Stay in Touch</span>
+      <h2>Contact Us</h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div>
+            <strong>Address</strong>
+            <p>Nile Street, Minya, Egypt</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <strong>Phone</strong>
+            <p>+20 123 456 789</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🕐</span>
+          <div>
+            <strong>Opening Hours</strong>
+            <p>8:00 AM — 12:00 Midnight</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📧</span>
+          <div>
+            <strong>Email</strong>
+            <p>hello@balancedcoffee.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form-wrap">
+      <h3>Send a Message</h3>
+      <div class="contact-form">
+        <input type="text" placeholder="Your name" />
+        <input type="email" placeholder="Your email" />
+        <textarea placeholder="Your message..." rows="5"></textarea>
+        <button class="btn">Send Message</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">Balanced Coffee</div>
+        <p>A quiet moment in the heart of the city</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Balanced Coffee — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    // Tabs
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.menu-grid').forEach(g => g.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+
+    // Navbar scroll
+    window.addEventListener('scroll', () => {
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('.nav-links').classList.remove('open');
+      });
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/1a2b3050b4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
